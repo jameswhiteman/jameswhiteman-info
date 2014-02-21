@@ -1,0 +1,27 @@
+My website should include the following pages:
+*Home
+*About James
+*Showcase:
+	All
+	Games
+	Websites
+	Applications
+*Works in Progress:
+	All
+	Games
+	Websites
+	Applications
+*Blog
+*Contact
+
+Home will include a simple explanation for the purpose of the site. There will be an introductory video, and a sample game, website, and application available to give a quick overview of my abilities. Also recommend checking out the blog for more details on how I develop things and to better inspect my abilities. Include the last time the site was updated.
+
+About James will include a description of myself and some basic hobbies and such. Resume is supplied. Education is provided. Strengths and skills are provided. Previous work experience is provided. Entire body of work is then layed out- Games, Websites, then Applications. Exact coding languages skill levels are provided. Software skills are provided. My LinkedIn, Stack Overflow, Github, and other such accounts are also linked.
+
+Showcase will be a drop down menu with the options All, Games, Websites, and Applications. Clicking on Showcase defaults to All. All shows the showcase for games, websites, and applications. >Every showcased game has screenshots, a description, links to the game's page, states the platforms, states what I did for the game, and has a video of the game. >Every showcased website has screenshots, a description, links to the website, and states what I did for the website. >Every showcased Application has screenshots, a description, links to the application, states what I did for the application, and has a video of the application.
+
+Works in Progress will show the same sort of thing as showcase but for projects I'm currently working on.
+
+Blog links to my blog. Blog will contain "Development Diaries", "Tutorials", "Showcase", "Other" sections.
+
+Contact has my e-mail address available as well as a simple email/message sender.

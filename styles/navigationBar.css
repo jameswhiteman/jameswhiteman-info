@@ -1,0 +1,117 @@
+﻿/*Main navigation bar pane.*/
+.navBar
+{
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size:16px;
+	text-align:center;
+	text-decoration:none;
+	width:auto;
+	height:32px;
+	border-top:2px;
+	border-bottom:2px;
+	border-left:0px;
+	border-right:0px;
+	border-color:black;
+	border-style:solid;
+	background-color:#990000;
+	list-style:none;
+	list-style-type:none;
+	padding:0px;
+}
+
+/*The inactive state of each item within the navigation bar pane.*/
+.navItem
+{
+	width:16.66%;
+	height:inherit;
+	float:left;
+	background-color:#990000;
+}
+
+/*The active state of each item within the navigation bar pane.*/
+.navItem:hover
+{
+	background-color:#FF0000;
+}
+
+/*The inactive state of the text in each item within the navigation bar pane.*/
+.navItem label
+{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+/*An item with a drop-down list on the main navigation bar pane.*/
+.navItemDrop
+{
+	background-color:#990000;
+	width:16.66%;
+	height:inherit;
+	margin:auto;
+	float:left;
+	list-style:normal;
+	border-top:0px;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;}
+
+/*The hovering state of the item with a drop-down list.*/
+.navItemDrop:hover
+{
+	background-color:#FF0000;
+	list-style:none;
+}
+
+/*The inactive state of the text in the item with a drop-down list.*/
+.navItemDrop label
+{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+/*The inactive state of the drop-down list of an item with a drop-down list.*/
+.navItemDrop .dropList
+{
+	height:0px;
+	transition:height 2s;
+	-moz-transition:height 2s;
+	-webkit-transition:height 2s;
+	-o-transition:height 2s;
+	display:none;
+}
+
+/*The hovering state of the drop-down list of an item with a drop-down list.*/
+.navItemDrop:hover .dropList
+{
+	background-color:red;
+	height:auto;
+	display:block;
+	list-style:none;
+	text-align:left;
+	margin-top:9px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:2px;
+	padding-bottom:0px;
+	border-top:0px;
+	border-bottom:2px;
+	border-left:2px;
+	border-right:2px;
+	border-color:black;
+	border-style:solid;
+}
+
+/*The inactive state of an item on a drop-down list.*/
+.dropItem
+{
+	background-color:red;
+	transition: visibility 2s;
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	visibility:visible;
+}
+
+/*The hovering state of an item on a drop-down list.*/
+.dropItem:hover
+{
+	background-color:cadetblue;
+}

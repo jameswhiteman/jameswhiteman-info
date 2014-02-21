@@ -1,0 +1,24 @@
+﻿/*Specifies style for the overarching body of the page.*/
+.globalBody
+{
+	background-image:url('../img/globalBackground.png');
+	background-repeat:repeat;
+}
+
+.pageContent
+{
+	min-width:640px;
+	max-width:1000px;
+	width:75%;
+	height:800px;
+	background-color:aliceblue;
+	margin:auto;
+	padding:0px;
+	text-align:center;
+	border-top:0px;
+	border-bottom:0px;
+	border-left:2px;
+	border-right:2px;
+	border-style:solid;
+	border-color:black;
+}
